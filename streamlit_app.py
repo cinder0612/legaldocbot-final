@@ -3,10 +3,9 @@
 LegalDocBot - Application Streamlit pour déploiement
 Base ChromaDB téléchargée automatiquement depuis Hugging Face
 """
-import os, streamlit as st
-st.write("Contenu chroma_db :", os.listdir("chroma_db") if os.path.exists("chroma_db") else "Dossier absent")
-# streamlit_app.py  (lignes 1-3)
-import patch_sqlite  # noqa  – DOIT être la première ligne
+import os
+os.environ["HOME"] = "/home/user"
+os.environ["STREAMLIT_GATHER_USAGE_STATS"] = "false"
 import streamlit as st
 import os
 import streamlit as st
