@@ -1,0 +1,16 @@
+streamlit
+python-dotenv
+PyPDF2
+tqdm
+jsonlines
+pyperclip
+requests
+gdown
+huggingface_hub
+PyMuPDF
+openai
+plotly
+pandas
+numpy
+chromadb
+sentence-transformers 
