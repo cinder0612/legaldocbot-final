@@ -3,7 +3,10 @@
 LegalDocBot - Application Streamlit pour déploiement
 Base ChromaDB téléchargée automatiquement depuis Hugging Face
 """
-
+# streamlit_app.py  (lignes 1-3)
+import patch_sqlite  # noqa  – DOIT être la première ligne
+import streamlit as st
+import os
 import streamlit as st
 import os
 import time
